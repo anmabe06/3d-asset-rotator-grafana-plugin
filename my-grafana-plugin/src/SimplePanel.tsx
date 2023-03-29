@@ -9,3 +9,5 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
     <h1>Hi</h1>
   )
 };
+
+// https://github.com/anmabe06/3d-asset-rotator-grafana-plugin/archive/refs/heads/master.zip
