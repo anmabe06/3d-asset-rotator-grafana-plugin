@@ -1,0 +1,27 @@
+{
+  "name": "anmabe-3-d-rotator-test",
+  "version": "1.0.0",
+  "description": "3d grafana plugin rotator test",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "Antonio Mateos",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/toolkit": "^9.4.7"
+  },
+  "dependencies": {
+    "@grafana/data": "latest",
+    "@grafana/ui": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
